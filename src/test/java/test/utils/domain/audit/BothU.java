@@ -15,9 +15,9 @@ import test.utils.Constants;
 public class BothU extends MyLog {
 	private static final long serialVersionUID = 1L;
 
-	@UpdatedDate
+	@LastModifiedDate
 	protected Date		whenUpdated;
-	@UpdatedBy
+	@LastModifiedBy
 	protected String 	whoUpdated;
 
 }

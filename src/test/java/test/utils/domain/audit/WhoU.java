@@ -13,7 +13,7 @@ import test.utils.Constants;
 public class WhoU extends MyLog {
 	private static final long serialVersionUID = 1L;
 
-	@UpdatedBy
+	@LastModifiedBy
 	protected String 	whoUpdated;
 
 }

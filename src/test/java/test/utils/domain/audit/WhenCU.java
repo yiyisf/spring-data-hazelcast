@@ -17,7 +17,7 @@ public class WhenCU extends MyLog {
 
 	@CreatedDate
 	protected Date		whenCreated;
-	@UpdatedDate
+	@LastModifiedDate
 	protected Date		whenUpdated;
 
 }

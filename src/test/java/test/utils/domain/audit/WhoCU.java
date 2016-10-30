@@ -15,7 +15,7 @@ public class WhoCU extends MyLog {
 
 	@CreatedBy
 	protected String 	whoCreated;
-	@UpdatedBy
+	@LastModifiedBy
 	protected String 	whoUpdated;
 
 }

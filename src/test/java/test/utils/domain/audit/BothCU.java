@@ -17,11 +17,11 @@ public class BothCU extends MyLog {
 
 	@CreatedDate
 	protected Date		whenCreated;
-	@UpdatedDate
+	@LastModifiedDate
 	protected Date		whenUpdated;
 	@CreatedBy
 	protected String 	whoCreated;
-	@UpdatedBy
+	@LastModifiedBy
 	protected String 	whoUpdated;
 
 }
