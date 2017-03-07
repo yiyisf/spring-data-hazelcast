@@ -7,7 +7,11 @@ import org.springframework.data.keyvalue.annotation.KeySpace;
 import test.utils.Constants;
 
 /**
- * FIXME
+ * <P>Domain object to test {@link 
+ * org.springframework.data.keyvalue.repository.config.EnableKeyValueAuditing
+ * EnableKeyValueAuditing},
+ * for the insert date.
+ * </P>
  * 
  * @author Neil Stevenson
  */
