@@ -64,7 +64,7 @@ public class HazelcastQueryEngine
 		if (rows > 0 || sort != null) {
 			int pagingPageSize = rows > 0 ? rows : Integer.MAX_VALUE;
 			@SuppressWarnings({ "unchecked", "rawtypes" })
-			PagingPredicate pp = new PagingPredicate(criteria,(Comparator) sort, pagingPageSize);
+			PagingPredicate pp = new PagingPredicate(criteria, (Comparator) sort, pagingPageSize);
 			if (rows > 0) {
 				int x = offset / rows;
 				while (x > 0) {
