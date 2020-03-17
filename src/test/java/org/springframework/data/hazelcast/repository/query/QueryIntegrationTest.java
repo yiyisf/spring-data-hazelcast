@@ -75,13 +75,15 @@ import static org.junit.Assert.assertThat;
  * @author Rafal Leszko
  */
 @ActiveProfiles(TestConstants.SPRING_TEST_PROFILE_SINGLETON)
-public class QueryIT
-        extends TestDataHelper {
+public class QueryIntegrationTest extends TestDataHelper {
+
     private static final int PAGE_0 = 0;
     private static final int SIZE_1 = 1;
     private static final int SIZE_5 = 5;
+
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
+
     @Resource
     private PersonRepository personRepository;
 
